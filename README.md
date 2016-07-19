@@ -33,6 +33,6 @@ The library is available as open source under the terms of the [MIT License](htt
 
 RubyEffect builds intuitive, live and elegant software that solves real world problems. We love open source and it's community.
 
-Liked this library? You may also like the articles we post on our [blog](http://www.rubyeffect.com/blog). Please do check
+Liked this library? You may also like the articles we post on our [blog](http://blog.rubyeffect.com). Please do check
 
 We would love to work on your ideas and see them grow. Say hello @ http://rubyeffect.com/contact
