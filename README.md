@@ -7,7 +7,7 @@ Easy Fill javascript library is for developers and testers. It gives a link to t
 Add this line at the bottom of your layout/html file:
 
 ```html
-<script type="text/javascript" src="/path/to/easy_fill-0.0.1.min.js"></script>
+<script type="text/javascript" src="/path/to/easy_fill-0.0.2.min.js"></script>
 ```
 
 ## Usage
