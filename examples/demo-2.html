@@ -1,0 +1,130 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="demo.css">
+    <script src='../lib/easy_fill-0.0.2.min.js' type='text/javascript'></script>
+  </head>
+  <body>
+    <div class="forms-container">
+      <h4>Fill data in form fields</h4>
+      <form action="#" method="post">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" name="name" />
+        </div>
+        <div>
+          <label for="mail">E-mail:</label>
+          <input type="email" name="email" />
+        </div>
+        <div>
+          <label for="msg">Message:</label>
+          <textarea name="message"></textarea>
+        </div>
+        <div>
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" value="male">Male
+          <input type="radio" name="gender" value="female">Female
+          <input type="radio" name="gender" value="other">Other
+        </div>
+        <div>
+          <label for="favoritecar">Favorite Car</label>
+          <select name="favoritecar">
+            <option value="audi">Audi</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="volvo">Volvo</option>
+            <option value="tesla">Tesla</option>
+          </select>
+        </div>
+        <div>
+          <label for="languages">Languages</label>
+          <input type="checkbox" name="language" value="HTML">Html
+          <input type="checkbox" name="language" value="CSS">Css
+          <input type="checkbox" name="language" value="JS">Js
+          <input type="checkbox" name="language" value="Ruby">Ruby
+        </div>
+        <div class="button">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+      <h4>Skip data fill in form fields</h4>
+      <form action="#" method="post" class="skip-form-fill">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" name="name" />
+        </div>
+        <div>
+          <label for="mail">E-mail:</label>
+          <input type="email" name="email" />
+        </div>
+        <div>
+          <label for="msg">Message:</label>
+          <textarea name="message"></textarea>
+        </div>
+        <div>
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" value="male">Male
+          <input type="radio" name="gender" value="female">Female
+          <input type="radio" name="gender" value="other">Other
+        </div>
+        <div>
+          <label for="favoritecar">Favorite Car</label>
+          <select name="favoritecar">
+            <option value="audi">Audi</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="volvo">Volvo</option>
+            <option value="tesla">Tesla</option>
+          </select>
+        </div>
+        <div>
+          <label for="languages">Languages</label>
+          <input type="checkbox" name="language" value="HTML">Html
+          <input type="checkbox" name="language" value="CSS">Css
+          <input type="checkbox" name="language" value="JS">Js
+          <input type="checkbox" name="language" value="Ruby">Ruby
+        </div>
+        <div class="button">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+      <h4>Skip data fill, if data present</h4>
+      <form action="#" method="post" class="skip-data-overwrite">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" name="name" value="test"/>
+        </div>
+        <div>
+          <label for="mail">E-mail:</label>
+          <input type="email" name="email" />
+        </div>
+        <div>
+          <label for="msg">Message:</label>
+          <textarea name="message">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</textarea>
+        </div>
+        <div>
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" value="male" checked>Male
+          <input type="radio" name="gender" value="female">Female
+          <input type="radio" name="gender" value="other">Other
+        </div>
+        <div>
+          <label for="favoritecar">Favorite Car</label>
+          <select name="favoritecar">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi" selected>Audi</option>
+            <option value="volvo">Volvo</option>
+            <option value="tesla">Tesla</option>
+          </select>
+        </div>
+        <div>
+          <label for="languages">Languages</label>
+          <input type="checkbox" name="language" value="HTML">Html
+          <input type="checkbox" name="language" value="CSS">Css
+          <input type="checkbox" name="language" value="JS">Js
+          <input type="checkbox" name="language" value="Ruby" checked>Ruby
+        </div>
+        <div class="button">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
