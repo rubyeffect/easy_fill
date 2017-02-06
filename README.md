@@ -47,6 +47,10 @@ The library is available as open source under the terms of the [MIT License](htt
 
 3. To avoid overwrite of existing value of form fields, add 'skip-data-overwrite' class to form tag. 
 
+## Authored by
+
+Sanjay Vedula(sanjay.vedula@gmail.com)
+
 ## About RubyEffect
 
 ![RubyEffect](http://blog.rubyeffect.com/wp-content/uploads/2015/05/cropped-re_original_logo.png)
